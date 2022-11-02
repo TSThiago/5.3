@@ -1,0 +1,28 @@
+.headerSection {
+    background-color: #ffdb15;
+    height: 14vh;
+}
+
+.headerPart {
+    height: 7vh;
+    text-align: center;
+}
+
+#searchBar {
+    height: 2.5vh;
+    margin-top: 2vh;
+}
+
+.navBar {
+    line-height: 6vh;
+}
+
+.navOptions {
+
+}
+
+.content {
+    background-color: #ebebeb;
+    height: 86vh;
+    text-align: center;
+}
