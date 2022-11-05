@@ -6,6 +6,12 @@ a {
     text-decoration: none;
 }
 
+h5 {
+    text-decoration: line-through;
+    font-size: small;
+}
+
+/* index page */
 .headerSection {
     background-color: #ffdb15;
     height: 14vh;
@@ -40,10 +46,13 @@ a {
 .benefits {
     background-color: white;
     height: 15vh;
+    border-radius: 1vw;
+}
+
+.contents {
     width: 80vw;
     margin-top: 5vh;
     display: inline-block;
-    border-radius: 1vw;
 }
 
 .offer, .firstOffer {
@@ -61,10 +70,32 @@ a {
     margin-top: 3.5vh;
 }
 
-.offerTitle, .subtitle {
-    margin-left: 1vw
+.offerTitle, .subTitle {
+    margin-left: 1vw;
+    text-align:left
 }
 
+.product {
+    background-color: white;
+    height: 180px;
+    width: 15vw;
+    float:left;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    overflow: hidden;
+}
+
+.product:hover {
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+    height:240px
+}
+
+.subtitle {
+    text-align: left;
+}
+
+/* cadastro page */
 .register {
     background-color: white;
     height: 48vh;
